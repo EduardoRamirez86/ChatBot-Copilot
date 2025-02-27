@@ -17,6 +17,36 @@ const servicios_campus = [
         answer: "Puedes visitar al departamento de servicios estudiantiles en el edificio DAC, planta baja",
         synonyms: ["servicios estudiantiles", "contactar servicios estudiantiles", "departamento estudiantil", "atención estudiantes", "soporte estudiantes", "ayuda estudiantes", "correo servicios estudiantiles", "teléfono servicios estudiantiles", "información servicios estudiantiles"]
     },
+    {
+        key: "centro de salud",
+        question: "¿Qué servicios ofrece el centro de salud del campus?",
+        answer: "El centro de salud ofrece consultas médicas, atención de emergencia y campañas de vacunación. Está ubicado cerca de la entrada principal.",
+        synonyms: ["centro de salud", "servicios médicos", "atención médica", "emergencias", "vacunación"]
+    },
+    {
+        key: "cafeterias",
+        question: "¿Cuántas cafeterías hay en el campus y dónde están ubicadas?",
+        answer: "El campus cuenta con dos cafeterías: una ubicada al este del campus y otra al suroeste, cerca de aeronáutica.",
+        synonyms: ["cafeterías", "comida en el campus", "dónde comer", "opciones de comida", "cafeterías universitarias"]
+    },
+    {
+        key: "laboratorios",
+        question: "¿Qué laboratorios están disponibles para los estudiantes?",
+        answer: "La universidad cuenta con laboratorios de informática, química, física y biología. Consulta los horarios y disponibilidad en el portal estudiantil.",
+        synonyms: ["laboratorios", "laboratorios disponibles", "laboratorios universitarios", "laboratorios de informática", "laboratorios de ciencias"]
+    },
+    {
+        key: "centro de copiado",
+        question: "¿Dónde puedo encontrar el centro de copiado en el campus?",
+        answer: "El centro de copiado está ubicado en el edificio principal, planta baja. Ofrece servicios de impresión, fotocopiado y encuadernación.",
+        synonyms: ["centro de copiado", "impresión", "fotocopiado", "encuadernación", "servicios de copiado"]
+    },
+    {
+        key: "orientacion vocacional",
+        question: "¿Dónde puedo obtener orientación vocacional?",
+        answer: "Puedes obtener orientación vocacional en el Departamento de Orientación Vocacional. Ellos te ayudarán a elegir la carrera adecuada para ti.",
+        synonyms: ["orientación vocacional", "elección de carrera", "consejería vocacional", "asesoramiento vocacional"]
+    }
 ];
 
 export default servicios_campus;
